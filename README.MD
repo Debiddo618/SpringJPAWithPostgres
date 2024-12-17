@@ -11,20 +11,20 @@
 2. Add the following configurations
 
 ```Java
-// Server configuration
+# Server configuration
 server.port=8080
 server.servlet.context-path=/path
 
-// Spring Boot configuration
+# Spring Boot configuration
 spring.application.name=my-spring-boot-app
 
-// Database Configuration
+# Database Configuration
 spring.datasource.url=jdbc:postgresql://localhost:5432/students
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 spring.datasource.driver-class-name=org.postgresql.Driver
 
-// JPA/Hibernate configuration
+# JPA/Hibernate configuration
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
